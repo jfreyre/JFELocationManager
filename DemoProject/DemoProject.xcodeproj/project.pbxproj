@@ -14,7 +14,6 @@
 		4D279F8F180C29C800FD064A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D279F8E180C29C800FD064A /* main.m */; };
 		4D279F93180C29C800FD064A /* JFEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D279F92180C29C800FD064A /* JFEAppDelegate.m */; };
 		4D279F96180C29C800FD064A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D279F94180C29C800FD064A /* Main_iPhone.storyboard */; };
-		4D279F99180C29C800FD064A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D279F97180C29C800FD064A /* Main_iPad.storyboard */; };
 		4D279F9C180C29C800FD064A /* JFEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D279F9B180C29C800FD064A /* JFEViewController.m */; };
 		4D279F9E180C29C800FD064A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D279F9D180C29C800FD064A /* Images.xcassets */; };
 		4D279FA5180C29C800FD064A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D279FA4180C29C800FD064A /* XCTest.framework */; };
@@ -23,6 +22,7 @@
 		4D279FAF180C29C800FD064A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D279FAD180C29C800FD064A /* InfoPlist.strings */; };
 		4D279FB1180C29C800FD064A /* DemoProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D279FB0180C29C800FD064A /* DemoProjectTests.m */; };
 		4D279FBD180C29E900FD064A /* JFELocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D279FBC180C29E900FD064A /* JFELocationManager.m */; };
+		4D279FC1180C2F8B00FD064A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D279FC0180C2F8B00FD064A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,6 @@
 		4D279F91180C29C800FD064A /* JFEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFEAppDelegate.h; sourceTree = "<group>"; };
 		4D279F92180C29C800FD064A /* JFEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFEAppDelegate.m; sourceTree = "<group>"; };
 		4D279F95180C29C800FD064A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		4D279F98180C29C800FD064A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		4D279F9A180C29C800FD064A /* JFEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFEViewController.h; sourceTree = "<group>"; };
 		4D279F9B180C29C800FD064A /* JFEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFEViewController.m; sourceTree = "<group>"; };
 		4D279F9D180C29C800FD064A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		4D279FB0180C29C800FD064A /* DemoProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoProjectTests.m; sourceTree = "<group>"; };
 		4D279FBB180C29E900FD064A /* JFELocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFELocationManager.h; sourceTree = "<group>"; };
 		4D279FBC180C29E900FD064A /* JFELocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFELocationManager.m; sourceTree = "<group>"; };
+		4D279FC0180C2F8B00FD064A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D279FC1180C2F8B00FD064A /* CoreLocation.framework in Frameworks */,
 				4D279F85180C29C800FD064A /* CoreGraphics.framework in Frameworks */,
 				4D279F87180C29C800FD064A /* UIKit.framework in Frameworks */,
 				4D279F83180C29C800FD064A /* Foundation.framework in Frameworks */,
@@ -107,6 +108,7 @@
 		4D279F81180C29C800FD064A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D279FC0180C2F8B00FD064A /* CoreLocation.framework */,
 				4D279F82180C29C800FD064A /* Foundation.framework */,
 				4D279F84180C29C800FD064A /* CoreGraphics.framework */,
 				4D279F86180C29C800FD064A /* UIKit.framework */,
@@ -121,7 +123,6 @@
 				4D279F91180C29C800FD064A /* JFEAppDelegate.h */,
 				4D279F92180C29C800FD064A /* JFEAppDelegate.m */,
 				4D279F94180C29C800FD064A /* Main_iPhone.storyboard */,
-				4D279F97180C29C800FD064A /* Main_iPad.storyboard */,
 				4D279F9A180C29C800FD064A /* JFEViewController.h */,
 				4D279F9B180C29C800FD064A /* JFEViewController.m */,
 				4D279F9D180C29C800FD064A /* Images.xcassets */,
@@ -217,6 +218,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jérome Freyre";
 				TargetAttributes = {
+					4D279F7E180C29C800FD064A = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					4D279FA2180C29C800FD064A = {
 						TestTargetID = 4D279F7E180C29C800FD064A;
 					};
@@ -246,7 +254,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D279F99180C29C800FD064A /* Main_iPad.storyboard in Resources */,
 				4D279F9E180C29C800FD064A /* Images.xcassets in Resources */,
 				4D279F96180C29C800FD064A /* Main_iPhone.storyboard in Resources */,
 				4D279F8D180C29C800FD064A /* InfoPlist.strings in Resources */,
@@ -308,14 +315,6 @@
 				4D279F95180C29C800FD064A /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		4D279F97180C29C800FD064A /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D279F98180C29C800FD064A /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		4D279FAD180C29C800FD064A /* InfoPlist.strings */ = {
@@ -406,12 +405,15 @@
 		4D279FB5180C29C800FD064A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoProject/DemoProject-Prefix.pch";
 				INFOPLIST_FILE = "DemoProject/DemoProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -419,12 +421,15 @@
 		4D279FB6180C29C800FD064A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoProject/DemoProject-Prefix.pch";
 				INFOPLIST_FILE = "DemoProject/DemoProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
