@@ -13,11 +13,18 @@
 static JFELocationManager *sharedInstance;
 
 + (JFELocationManager *)sharedInstance {
-    @synchronized(self) {
-        if (!sharedInstance)
-            sharedInstance = [[JFELocationManager alloc] init];
-    }
+    static dispatch_once_t _singletonPredicate;
+    
+    dispatch_once(&_singletonPredicate, ^{
+        sharedInstance = [[super allocWithZone:nil] init];
+    });
+    
     return sharedInstance;
+}
+
++ (id)allocWithZone:(NSZone *)zone
+{
+    return [self sharedInstance];
 }
 
 +(id)alloc {
