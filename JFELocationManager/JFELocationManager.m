@@ -8,6 +8,9 @@
 
 #import "JFELocationManager.h"
 
+#define IS_OS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+
+
 @implementation JFELocationManager
 
 static JFELocationManager *sharedInstance;
@@ -44,6 +47,10 @@ static JFELocationManager *sharedInstance;
         [_locationManager setDistanceFilter:kCLDistanceFilterNone];
         [_locationManager setDistanceFilter:1.f];
         [_locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
+        
+        if (IS_OS_8_OR_LATER) {
+            [_locationManager requestAlwaysAuthorization];
+        }
         [self start];
     }
     return self;

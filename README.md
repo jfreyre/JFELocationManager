@@ -6,6 +6,16 @@ It's a `CoreLocation wrapper (singleton) to allow an internal use overall your a
 Call `[JFELocationManager sharedInstance];` in your AppDelegate file or somewhere else to initiate the singleton and automatically starting to update location and heading
 
 
+### What about iOS 8 ?
+
+JFELocationManager is now ready for iOS 8. To enable the library you have to add a new entry in you `Info.plist` file.
+
+```
+NSLocationAlwaysUsageDescription = "The message to be shown";
+```
+
+### Usage
+
 
 Set a controller as
 ```objc
