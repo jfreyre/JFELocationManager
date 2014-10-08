@@ -1,7 +1,7 @@
 JFELocationManager
 ===================
 
-It's a `CoreLocation wrapper (singleton) to allow an internal use overall your application.
+It's a `CoreLocation wrapper` (singleton) to allow an internal use overall your application.
 
 Call `[JFELocationManager sharedInstance];` in your AppDelegate file or somewhere else to initiate the singleton and automatically starting to update location and heading
 
