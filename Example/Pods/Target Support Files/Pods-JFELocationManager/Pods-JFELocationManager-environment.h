@@ -10,5 +10,5 @@
 #define COCOAPODS_POD_AVAILABLE_JFELocationManager
 #define COCOAPODS_VERSION_MAJOR_JFELocationManager 0
 #define COCOAPODS_VERSION_MINOR_JFELocationManager 1
-#define COCOAPODS_VERSION_PATCH_JFELocationManager 0
+#define COCOAPODS_VERSION_PATCH_JFELocationManager 1
 

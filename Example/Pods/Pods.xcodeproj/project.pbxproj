@@ -7,286 +7,286 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4ECD71C916DEABBF96F46927 /* Pods-JFELocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2B774274BA641E9E2AEAEC /* Pods-JFELocationManager-dummy.m */; };
-		4EFED668199B6752971F6C86 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CBB0E532EC4BECF4C5865A /* CoreLocation.framework */; };
-		8A22D12B8B8DB4D3CD14ED12 /* Pods-Tests-JFELocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCADCFBC86F80B70205F0A5 /* Pods-Tests-JFELocationManager-dummy.m */; };
-		95F5B09CB4A3D7C1C8ADDFF8 /* JFELocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBCCE6E805B558B08E646B /* JFELocationManager.m */; };
-		A72331B071129575FD3AAA6A /* Pods-JFELocationManager-JFELocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 625AAC3416C868BC4950D37C /* Pods-JFELocationManager-JFELocationManager-dummy.m */; };
-		AAFBA33F8BE1414955B5239E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4A770DA543C829A45EC739 /* Foundation.framework */; };
-		ABA38AA5EEAB7CE36A41EAC8 /* JFELocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCDBCCE6E805B558B08E646B /* JFELocationManager.m */; };
-		AE7CE54462754E6A31E5B36B /* JFELocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F22E0EF14DEC3F26B34EC6 /* JFELocationManager.h */; };
-		AF46EA67DD5D5FB41FB6CA12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4A770DA543C829A45EC739 /* Foundation.framework */; };
-		B55A52BCA8A14B2F6CCA79F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4A770DA543C829A45EC739 /* Foundation.framework */; };
-		C1414727317E38CEF990BCB5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CBB0E532EC4BECF4C5865A /* CoreLocation.framework */; };
-		C4A93F242AFE3D08BD58E8C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4A770DA543C829A45EC739 /* Foundation.framework */; };
-		DF95AF9B37A8FDD86540F9D9 /* JFELocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F22E0EF14DEC3F26B34EC6 /* JFELocationManager.h */; };
-		FC5AF5824496EF335DD6C06D /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D40C980616797ADCB12019 /* Pods-Tests-dummy.m */; };
+		011F0BFBE2D6BAC103D27199 /* JFELocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE897472672AE456F87C322 /* JFELocationManager.m */; };
+		055479112AC90C9B16590017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E2B90B174D7ED6A9841860 /* Foundation.framework */; };
+		06224D951114D2FA4229E0A2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0477CC4EC7B36199169F839 /* CoreLocation.framework */; };
+		1604F39E3A1AE26453D70E00 /* Pods-JFELocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9542F8D0766771F491D05B8 /* Pods-JFELocationManager-dummy.m */; };
+		4BB87D8B5C1A3CF08AFC55DA /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BB3FA745481012380E9EEA /* Pods-Tests-dummy.m */; };
+		5E0AA60C89BE5CE7A66AAF87 /* Pods-JFELocationManager-JFELocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB20124AA51CC5A6B33676C /* Pods-JFELocationManager-JFELocationManager-dummy.m */; };
+		7C10FF090CB785EB70E614B4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0477CC4EC7B36199169F839 /* CoreLocation.framework */; };
+		955F359CDAA21FC6989C6C34 /* Pods-Tests-JFELocationManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87136F132060874DB2C4A8AF /* Pods-Tests-JFELocationManager-dummy.m */; };
+		B4288C4EC90C1B6B5DE711B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E2B90B174D7ED6A9841860 /* Foundation.framework */; };
+		C43D7301DA4D8E2FBCA36A51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E2B90B174D7ED6A9841860 /* Foundation.framework */; };
+		C94830C91F81DAB3CF45821E /* JFELocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE897472672AE456F87C322 /* JFELocationManager.m */; };
+		D2EB7D6730847C89872DBDFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E2B90B174D7ED6A9841860 /* Foundation.framework */; };
+		DF1627AB27F88D60F004E0F0 /* JFELocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 10276737427EDD20A63CC28A /* JFELocationManager.h */; };
+		FEBAEE93D5E23BBAEFAFE83C /* JFELocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 10276737427EDD20A63CC28A /* JFELocationManager.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		78A6CC5BFE80A1DB2AECA4F8 /* PBXContainerItemProxy */ = {
+		18F6A3A21660E50E5C266B4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4B249766292462A77F49F985 /* Project object */;
+			containerPortal = 08786559F9DB7519585B331A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 18B4E078E1A6697D24909046;
-			remoteInfo = "Pods-JFELocationManager-JFELocationManager";
-		};
-		990A03012C110410199C6D0A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B249766292462A77F49F985 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0500069E6A83C0C558CA4532;
+			remoteGlobalIDString = 86D0D7D10FDA5A0F4EF65DB1;
 			remoteInfo = "Pods-Tests-JFELocationManager";
+		};
+		406310A105B7916B0C18ED1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08786559F9DB7519585B331A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B25E6EB344F5FD4037580B8;
+			remoteInfo = "Pods-JFELocationManager-JFELocationManager";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E2B774274BA641E9E2AEAEC /* Pods-JFELocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JFELocationManager-dummy.m"; sourceTree = "<group>"; };
-		1FBCE70DD093EB8C1A40F638 /* Pods-JFELocationManager-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JFELocationManager-environment.h"; sourceTree = "<group>"; };
-		2D546DD97246383514C7BB51 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		33FF994D00F135AB5048558B /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3817147C6DD2744714144771 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		39F22E0EF14DEC3F26B34EC6 /* JFELocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JFELocationManager.h; sourceTree = "<group>"; };
-		4565A2850F7E10E97CF0EEE4 /* Pods-JFELocationManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFELocationManager.debug.xcconfig"; sourceTree = "<group>"; };
-		45EAEC62328BD3E2F929CE1C /* Pods-Tests-JFELocationManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-JFELocationManager.xcconfig"; path = "../Pods-Tests-JFELocationManager/Pods-Tests-JFELocationManager.xcconfig"; sourceTree = "<group>"; };
-		472543EC4E583374203B9FE0 /* Pods-JFELocationManager-JFELocationManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFELocationManager-JFELocationManager.xcconfig"; sourceTree = "<group>"; };
-		47D40C980616797ADCB12019 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		4CCADCFBC86F80B70205F0A5 /* Pods-Tests-JFELocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-JFELocationManager-dummy.m"; path = "../Pods-Tests-JFELocationManager/Pods-Tests-JFELocationManager-dummy.m"; sourceTree = "<group>"; };
-		53798D5528E17B7B2A19F404 /* Pods-JFELocationManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JFELocationManager-acknowledgements.markdown"; sourceTree = "<group>"; };
-		569B767A20E34496560D9297 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		625AAC3416C868BC4950D37C /* Pods-JFELocationManager-JFELocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JFELocationManager-JFELocationManager-dummy.m"; sourceTree = "<group>"; };
-		730B228F8C6B9EBC3D7333E0 /* libPods-Tests-JFELocationManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-JFELocationManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B79BF95492388478B8327A2 /* Pods-JFELocationManager-JFELocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JFELocationManager-JFELocationManager-prefix.pch"; sourceTree = "<group>"; };
-		804E9CD360280D2750965F35 /* Pods-Tests-JFELocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-JFELocationManager-prefix.pch"; path = "../Pods-Tests-JFELocationManager/Pods-Tests-JFELocationManager-prefix.pch"; sourceTree = "<group>"; };
-		85C15549CA355B26CAA96B3D /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		96DA606B934D5AEADB04607F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		983B71FD466DF9A5B947E29C /* Pods-JFELocationManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFELocationManager.release.xcconfig"; sourceTree = "<group>"; };
-		9F4A770DA543C829A45EC739 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A2CBB0E532EC4BECF4C5865A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		A3FB7C9C1633CB1FE18D7381 /* Pods-JFELocationManager-JFELocationManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFELocationManager-JFELocationManager-Private.xcconfig"; sourceTree = "<group>"; };
-		A499F3592A85066DF9EA2FA4 /* Pods-Tests-JFELocationManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-JFELocationManager-Private.xcconfig"; path = "../Pods-Tests-JFELocationManager/Pods-Tests-JFELocationManager-Private.xcconfig"; sourceTree = "<group>"; };
-		A56BB5618183F43A1B9FF164 /* libPods-JFELocationManager-JFELocationManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFELocationManager-JFELocationManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A71DD572FD5C185FA06C726E /* Pods-JFELocationManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JFELocationManager-acknowledgements.plist"; sourceTree = "<group>"; };
-		A99EDDB372396E88A6F10DC1 /* Pods-JFELocationManager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JFELocationManager-resources.sh"; sourceTree = "<group>"; };
-		AA58C8AE6C6476E41EEADB6E /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		AAC233FE822AC184B01F4AE8 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		CCDBCCE6E805B558B08E646B /* JFELocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JFELocationManager.m; sourceTree = "<group>"; };
-		E8D8E2E0F58018F8D3C111EC /* libPods-JFELocationManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFELocationManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10276737427EDD20A63CC28A /* JFELocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JFELocationManager.h; sourceTree = "<group>"; };
+		163F092389BC2DA1DC2025DA /* Pods-Tests-JFELocationManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-JFELocationManager-Private.xcconfig"; path = "../Pods-Tests-JFELocationManager/Pods-Tests-JFELocationManager-Private.xcconfig"; sourceTree = "<group>"; };
+		360C6CB594D803B06804AC36 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		374EB4D11440B547C5C4A32D /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		416756EBB384EC8F6969EB57 /* Pods-JFELocationManager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JFELocationManager-resources.sh"; sourceTree = "<group>"; };
+		4B4F2D39579D217E243DDFD4 /* Pods-JFELocationManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFELocationManager.debug.xcconfig"; sourceTree = "<group>"; };
+		57C9F0E8523140697141A28A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B9E63901F01BC269791E721 /* Pods-Tests-JFELocationManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-JFELocationManager.xcconfig"; path = "../Pods-Tests-JFELocationManager/Pods-Tests-JFELocationManager.xcconfig"; sourceTree = "<group>"; };
+		708CA4FD7EA3C6693B85ED29 /* Pods-JFELocationManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFELocationManager.release.xcconfig"; sourceTree = "<group>"; };
+		75DED454F0774A5983DB5A17 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		7E4022AE3B08E2FC6A9D01B9 /* Pods-JFELocationManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JFELocationManager-acknowledgements.plist"; sourceTree = "<group>"; };
+		87136F132060874DB2C4A8AF /* Pods-Tests-JFELocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-JFELocationManager-dummy.m"; path = "../Pods-Tests-JFELocationManager/Pods-Tests-JFELocationManager-dummy.m"; sourceTree = "<group>"; };
+		87E2B90B174D7ED6A9841860 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9BEB81EA0132457C321E8A95 /* Pods-Tests-JFELocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-JFELocationManager-prefix.pch"; path = "../Pods-Tests-JFELocationManager/Pods-Tests-JFELocationManager-prefix.pch"; sourceTree = "<group>"; };
+		A3B293F827350F99A715B59F /* Pods-JFELocationManager-JFELocationManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFELocationManager-JFELocationManager-Private.xcconfig"; sourceTree = "<group>"; };
+		A5888E47761B5A3A6DC8F3DE /* libPods-JFELocationManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFELocationManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90BA1F5B9AC947816443359 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AC7095967655865ECA775390 /* Pods-JFELocationManager-JFELocationManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFELocationManager-JFELocationManager.xcconfig"; sourceTree = "<group>"; };
+		AFE897472672AE456F87C322 /* JFELocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JFELocationManager.m; sourceTree = "<group>"; };
+		B1BB3FA745481012380E9EEA /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		BD4DBDFF8F5EA098937DD08A /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FF0D80243A14899FA83098 /* Pods-JFELocationManager-JFELocationManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JFELocationManager-JFELocationManager-prefix.pch"; sourceTree = "<group>"; };
+		C3976F5E1DFACE0D18289B53 /* Pods-JFELocationManager-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JFELocationManager-environment.h"; sourceTree = "<group>"; };
+		C9542F8D0766771F491D05B8 /* Pods-JFELocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JFELocationManager-dummy.m"; sourceTree = "<group>"; };
+		CB8EE80CB35C7EE2C97CEC20 /* Pods-JFELocationManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JFELocationManager-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0477CC4EC7B36199169F839 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		D22031C040B292407EB5EE54 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D25CE636482B144F0041FCBF /* libPods-Tests-JFELocationManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-JFELocationManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB20124AA51CC5A6B33676C /* Pods-JFELocationManager-JFELocationManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JFELocationManager-JFELocationManager-dummy.m"; sourceTree = "<group>"; };
+		F5E5B0FD3867677FF478C6E4 /* libPods-JFELocationManager-JFELocationManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFELocationManager-JFELocationManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EED80C204EB534DD502CD4 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1C8198B9B8D1F8AABBC3E1B3 /* Frameworks */ = {
+		146FD0BCAE4D04DE3B40CBCB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55A52BCA8A14B2F6CCA79F4 /* Foundation.framework in Frameworks */,
+				055479112AC90C9B16590017 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		226AE0B3D8291182A554AC37 /* Frameworks */ = {
+		30788D517FD7882A1FE5B02C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1414727317E38CEF990BCB5 /* CoreLocation.framework in Frameworks */,
-				AAFBA33F8BE1414955B5239E /* Foundation.framework in Frameworks */,
+				D2EB7D6730847C89872DBDFE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7707139A356E6A66C7FD7C6F /* Frameworks */ = {
+		901362B55F6477A6988F12B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4A93F242AFE3D08BD58E8C4 /* Foundation.framework in Frameworks */,
+				7C10FF090CB785EB70E614B4 /* CoreLocation.framework in Frameworks */,
+				C43D7301DA4D8E2FBCA36A51 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9E4BC44CB1486B332A9AD14 /* Frameworks */ = {
+		96D9F54ACE0EEFB9533254F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EFED668199B6752971F6C86 /* CoreLocation.framework in Frameworks */,
-				AF46EA67DD5D5FB41FB6CA12 /* Foundation.framework in Frameworks */,
+				06224D951114D2FA4229E0A2 /* CoreLocation.framework in Frameworks */,
+				B4288C4EC90C1B6B5DE711B8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01EC4763EE2D1D69AD929E9E /* Support Files */ = {
+		2519DE22A54049242294F5B7 = {
 			isa = PBXGroup;
 			children = (
-				472543EC4E583374203B9FE0 /* Pods-JFELocationManager-JFELocationManager.xcconfig */,
-				A3FB7C9C1633CB1FE18D7381 /* Pods-JFELocationManager-JFELocationManager-Private.xcconfig */,
-				625AAC3416C868BC4950D37C /* Pods-JFELocationManager-JFELocationManager-dummy.m */,
-				7B79BF95492388478B8327A2 /* Pods-JFELocationManager-JFELocationManager-prefix.pch */,
-				45EAEC62328BD3E2F929CE1C /* Pods-Tests-JFELocationManager.xcconfig */,
-				A499F3592A85066DF9EA2FA4 /* Pods-Tests-JFELocationManager-Private.xcconfig */,
-				4CCADCFBC86F80B70205F0A5 /* Pods-Tests-JFELocationManager-dummy.m */,
-				804E9CD360280D2750965F35 /* Pods-Tests-JFELocationManager-prefix.pch */,
+				57C9F0E8523140697141A28A /* Podfile */,
+				D777765278EA0897160D800C /* Development Pods */,
+				584B7C4883AF696C3B6E7D50 /* Frameworks */,
+				508BD23B45679296913592FE /* Products */,
+				5E54A00F6504E6D55168A4C4 /* Targets Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-JFELocationManager-JFELocationManager";
 			sourceTree = "<group>";
 		};
-		25CF44FF01369F58F10F7311 /* Classes */ = {
+		347F3890D59F591922A82412 /* JFELocationManager */ = {
 			isa = PBXGroup;
 			children = (
-				39F22E0EF14DEC3F26B34EC6 /* JFELocationManager.h */,
-				CCDBCCE6E805B558B08E646B /* JFELocationManager.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		290D65DB04BDBCDF6A8950F2 /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				569B767A20E34496560D9297 /* Pods-Tests-acknowledgements.markdown */,
-				33FF994D00F135AB5048558B /* Pods-Tests-acknowledgements.plist */,
-				47D40C980616797ADCB12019 /* Pods-Tests-dummy.m */,
-				AA58C8AE6C6476E41EEADB6E /* Pods-Tests-environment.h */,
-				AAC233FE822AC184B01F4AE8 /* Pods-Tests-resources.sh */,
-				85C15549CA355B26CAA96B3D /* Pods-Tests.debug.xcconfig */,
-				2D546DD97246383514C7BB51 /* Pods-Tests.release.xcconfig */,
-			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
-			sourceTree = "<group>";
-		};
-		3169DC62C13452359855E9CB /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A2CBB0E532EC4BECF4C5865A /* CoreLocation.framework */,
-				9F4A770DA543C829A45EC739 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		462AAC1DF158F666CA8D969C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3169DC62C13452359855E9CB /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4D7220D79B8D9B414BA96A16 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AD6F840090A7A7C003E198AC /* JFELocationManager */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		60ABD897D885F928476E6E2B /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A31B9ED7041D54161C6435C9 /* Pods-JFELocationManager */,
-				290D65DB04BDBCDF6A8950F2 /* Pods-Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A31B9ED7041D54161C6435C9 /* Pods-JFELocationManager */ = {
-			isa = PBXGroup;
-			children = (
-				53798D5528E17B7B2A19F404 /* Pods-JFELocationManager-acknowledgements.markdown */,
-				A71DD572FD5C185FA06C726E /* Pods-JFELocationManager-acknowledgements.plist */,
-				1E2B774274BA641E9E2AEAEC /* Pods-JFELocationManager-dummy.m */,
-				1FBCE70DD093EB8C1A40F638 /* Pods-JFELocationManager-environment.h */,
-				A99EDDB372396E88A6F10DC1 /* Pods-JFELocationManager-resources.sh */,
-				4565A2850F7E10E97CF0EEE4 /* Pods-JFELocationManager.debug.xcconfig */,
-				983B71FD466DF9A5B947E29C /* Pods-JFELocationManager.release.xcconfig */,
-			);
-			name = "Pods-JFELocationManager";
-			path = "Target Support Files/Pods-JFELocationManager";
-			sourceTree = "<group>";
-		};
-		AD6F840090A7A7C003E198AC /* JFELocationManager */ = {
-			isa = PBXGroup;
-			children = (
-				C2336A371B44D745B7767839 /* Pod */,
-				01EC4763EE2D1D69AD929E9E /* Support Files */,
+				7367EB5090410A546A889332 /* Pod */,
+				EDD0955331F9ECEC64137FB0 /* Support Files */,
 			);
 			name = JFELocationManager;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		C2336A371B44D745B7767839 /* Pod */ = {
+		3DBD73B1CCD6F2E410DE79FB /* Pods-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				25CF44FF01369F58F10F7311 /* Classes */,
+				F6EED80C204EB534DD502CD4 /* Pods-Tests-acknowledgements.markdown */,
+				D22031C040B292407EB5EE54 /* Pods-Tests-acknowledgements.plist */,
+				B1BB3FA745481012380E9EEA /* Pods-Tests-dummy.m */,
+				374EB4D11440B547C5C4A32D /* Pods-Tests-environment.h */,
+				75DED454F0774A5983DB5A17 /* Pods-Tests-resources.sh */,
+				360C6CB594D803B06804AC36 /* Pods-Tests.debug.xcconfig */,
+				A90BA1F5B9AC947816443359 /* Pods-Tests.release.xcconfig */,
 			);
-			path = Pod;
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
-		CE9A526CF3A992E6401A7C39 /* Products */ = {
+		508BD23B45679296913592FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E8D8E2E0F58018F8D3C111EC /* libPods-JFELocationManager.a */,
-				A56BB5618183F43A1B9FF164 /* libPods-JFELocationManager-JFELocationManager.a */,
-				3817147C6DD2744714144771 /* libPods-Tests.a */,
-				730B228F8C6B9EBC3D7333E0 /* libPods-Tests-JFELocationManager.a */,
+				A5888E47761B5A3A6DC8F3DE /* libPods-JFELocationManager.a */,
+				F5E5B0FD3867677FF478C6E4 /* libPods-JFELocationManager-JFELocationManager.a */,
+				BD4DBDFF8F5EA098937DD08A /* libPods-Tests.a */,
+				D25CE636482B144F0041FCBF /* libPods-Tests-JFELocationManager.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF49DBE654D388629B7B5930 = {
+		584B7C4883AF696C3B6E7D50 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				96DA606B934D5AEADB04607F /* Podfile */,
-				4D7220D79B8D9B414BA96A16 /* Development Pods */,
-				462AAC1DF158F666CA8D969C /* Frameworks */,
-				CE9A526CF3A992E6401A7C39 /* Products */,
-				60ABD897D885F928476E6E2B /* Targets Support Files */,
+				CBC90C9E4A35F4D755D367C5 /* iOS */,
 			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E54A00F6504E6D55168A4C4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8158BD06781A762576C10B0 /* Pods-JFELocationManager */,
+				3DBD73B1CCD6F2E410DE79FB /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7367EB5090410A546A889332 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8BFB799FA854890D1D706F74 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		8BFB799FA854890D1D706F74 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				10276737427EDD20A63CC28A /* JFELocationManager.h */,
+				AFE897472672AE456F87C322 /* JFELocationManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A8158BD06781A762576C10B0 /* Pods-JFELocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				CB8EE80CB35C7EE2C97CEC20 /* Pods-JFELocationManager-acknowledgements.markdown */,
+				7E4022AE3B08E2FC6A9D01B9 /* Pods-JFELocationManager-acknowledgements.plist */,
+				C9542F8D0766771F491D05B8 /* Pods-JFELocationManager-dummy.m */,
+				C3976F5E1DFACE0D18289B53 /* Pods-JFELocationManager-environment.h */,
+				416756EBB384EC8F6969EB57 /* Pods-JFELocationManager-resources.sh */,
+				4B4F2D39579D217E243DDFD4 /* Pods-JFELocationManager.debug.xcconfig */,
+				708CA4FD7EA3C6693B85ED29 /* Pods-JFELocationManager.release.xcconfig */,
+			);
+			name = "Pods-JFELocationManager";
+			path = "Target Support Files/Pods-JFELocationManager";
+			sourceTree = "<group>";
+		};
+		CBC90C9E4A35F4D755D367C5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D0477CC4EC7B36199169F839 /* CoreLocation.framework */,
+				87E2B90B174D7ED6A9841860 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D777765278EA0897160D800C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				347F3890D59F591922A82412 /* JFELocationManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EDD0955331F9ECEC64137FB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC7095967655865ECA775390 /* Pods-JFELocationManager-JFELocationManager.xcconfig */,
+				A3B293F827350F99A715B59F /* Pods-JFELocationManager-JFELocationManager-Private.xcconfig */,
+				DEB20124AA51CC5A6B33676C /* Pods-JFELocationManager-JFELocationManager-dummy.m */,
+				C2FF0D80243A14899FA83098 /* Pods-JFELocationManager-JFELocationManager-prefix.pch */,
+				6B9E63901F01BC269791E721 /* Pods-Tests-JFELocationManager.xcconfig */,
+				163F092389BC2DA1DC2025DA /* Pods-Tests-JFELocationManager-Private.xcconfig */,
+				87136F132060874DB2C4A8AF /* Pods-Tests-JFELocationManager-dummy.m */,
+				9BEB81EA0132457C321E8A95 /* Pods-Tests-JFELocationManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-JFELocationManager-JFELocationManager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		437DEE55595028BC81E92895 /* Headers */ = {
+		8C51D0EFCC10AD1BD37D0BAC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE7CE54462754E6A31E5B36B /* JFELocationManager.h in Headers */,
+				DF1627AB27F88D60F004E0F0 /* JFELocationManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4544237093BB0C14DFF06B1A /* Headers */ = {
+		D7D8A50CE9D4ED843ED9134D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF95AF9B37A8FDD86540F9D9 /* JFELocationManager.h in Headers */,
+				FEBAEE93D5E23BBAEFAFE83C /* JFELocationManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0500069E6A83C0C558CA4532 /* Pods-Tests-JFELocationManager */ = {
+		2811EEBA7F26F948FDCB62D6 /* Pods-JFELocationManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D06D6D70C6606AF970080CA /* Build configuration list for PBXNativeTarget "Pods-Tests-JFELocationManager" */;
+			buildConfigurationList = F71F5E01DABBF1B9AE250995 /* Build configuration list for PBXNativeTarget "Pods-JFELocationManager" */;
 			buildPhases = (
-				8CAAE476382EA420B9FEE010 /* Sources */,
-				F9E4BC44CB1486B332A9AD14 /* Frameworks */,
-				4544237093BB0C14DFF06B1A /* Headers */,
+				08A1D034BE82315B91EAAB20 /* Sources */,
+				146FD0BCAE4D04DE3B40CBCB /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FEF6611C645EA41DE25F7AF8 /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests-JFELocationManager";
-			productName = "Pods-Tests-JFELocationManager";
-			productReference = 730B228F8C6B9EBC3D7333E0 /* libPods-Tests-JFELocationManager.a */;
+			name = "Pods-JFELocationManager";
+			productName = "Pods-JFELocationManager";
+			productReference = A5888E47761B5A3A6DC8F3DE /* libPods-JFELocationManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		18B4E078E1A6697D24909046 /* Pods-JFELocationManager-JFELocationManager */ = {
+		6B25E6EB344F5FD4037580B8 /* Pods-JFELocationManager-JFELocationManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C35F9873125F314DF3ADF19 /* Build configuration list for PBXNativeTarget "Pods-JFELocationManager-JFELocationManager" */;
+			buildConfigurationList = 9C77460DDAFF828F775A1BC3 /* Build configuration list for PBXNativeTarget "Pods-JFELocationManager-JFELocationManager" */;
 			buildPhases = (
-				83D6E234DB52C3F76207D1F4 /* Sources */,
-				226AE0B3D8291182A554AC37 /* Frameworks */,
-				437DEE55595028BC81E92895 /* Headers */,
+				A5BF7BDEE57C210999AD9972 /* Sources */,
+				901362B55F6477A6988F12B7 /* Frameworks */,
+				D7D8A50CE9D4ED843ED9134D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -294,127 +294,143 @@
 			);
 			name = "Pods-JFELocationManager-JFELocationManager";
 			productName = "Pods-JFELocationManager-JFELocationManager";
-			productReference = A56BB5618183F43A1B9FF164 /* libPods-JFELocationManager-JFELocationManager.a */;
+			productReference = F5E5B0FD3867677FF478C6E4 /* libPods-JFELocationManager-JFELocationManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E615A55C1AA4DE73757037AD /* Pods-JFELocationManager */ = {
+		86D0D7D10FDA5A0F4EF65DB1 /* Pods-Tests-JFELocationManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9E0B736AA17178BB4E4F3F3 /* Build configuration list for PBXNativeTarget "Pods-JFELocationManager" */;
+			buildConfigurationList = 2FF25C33A10947733C4BFA0E /* Build configuration list for PBXNativeTarget "Pods-Tests-JFELocationManager" */;
 			buildPhases = (
-				65AA1BA74E3AA62EB514E06F /* Sources */,
-				1C8198B9B8D1F8AABBC3E1B3 /* Frameworks */,
+				1D9B486D5F0CB3DD0A98BC91 /* Sources */,
+				96D9F54ACE0EEFB9533254F4 /* Frameworks */,
+				8C51D0EFCC10AD1BD37D0BAC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				37058668BF0395058F5A7E52 /* PBXTargetDependency */,
 			);
-			name = "Pods-JFELocationManager";
-			productName = "Pods-JFELocationManager";
-			productReference = E8D8E2E0F58018F8D3C111EC /* libPods-JFELocationManager.a */;
+			name = "Pods-Tests-JFELocationManager";
+			productName = "Pods-Tests-JFELocationManager";
+			productReference = D25CE636482B144F0041FCBF /* libPods-Tests-JFELocationManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		EE1C8CCCC899888B04B055D3 /* Pods-Tests */ = {
+		8D121B5697917C1244C62522 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD42989825295E3CCD09D632 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildConfigurationList = 4C109866AECF194F86FCA956 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				9672BC504E46C6B8069AD9CF /* Sources */,
-				7707139A356E6A66C7FD7C6F /* Frameworks */,
+				D9F1CB864C98D0F08F26FFD8 /* Sources */,
+				30788D517FD7882A1FE5B02C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ACD9911659CA35D12EAFD168 /* PBXTargetDependency */,
+				A57225C5F87800E09524F57C /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
-			productReference = 3817147C6DD2744714144771 /* libPods-Tests.a */;
+			productReference = BD4DBDFF8F5EA098937DD08A /* libPods-Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4B249766292462A77F49F985 /* Project object */ = {
+		08786559F9DB7519585B331A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = D8345291CFC366B121453949 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 076420B5E76E76756FB857C9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EF49DBE654D388629B7B5930;
-			productRefGroup = CE9A526CF3A992E6401A7C39 /* Products */;
+			mainGroup = 2519DE22A54049242294F5B7;
+			productRefGroup = 508BD23B45679296913592FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E615A55C1AA4DE73757037AD /* Pods-JFELocationManager */,
-				18B4E078E1A6697D24909046 /* Pods-JFELocationManager-JFELocationManager */,
-				EE1C8CCCC899888B04B055D3 /* Pods-Tests */,
-				0500069E6A83C0C558CA4532 /* Pods-Tests-JFELocationManager */,
+				2811EEBA7F26F948FDCB62D6 /* Pods-JFELocationManager */,
+				6B25E6EB344F5FD4037580B8 /* Pods-JFELocationManager-JFELocationManager */,
+				8D121B5697917C1244C62522 /* Pods-Tests */,
+				86D0D7D10FDA5A0F4EF65DB1 /* Pods-Tests-JFELocationManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		65AA1BA74E3AA62EB514E06F /* Sources */ = {
+		08A1D034BE82315B91EAAB20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ECD71C916DEABBF96F46927 /* Pods-JFELocationManager-dummy.m in Sources */,
+				1604F39E3A1AE26453D70E00 /* Pods-JFELocationManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83D6E234DB52C3F76207D1F4 /* Sources */ = {
+		1D9B486D5F0CB3DD0A98BC91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95F5B09CB4A3D7C1C8ADDFF8 /* JFELocationManager.m in Sources */,
-				A72331B071129575FD3AAA6A /* Pods-JFELocationManager-JFELocationManager-dummy.m in Sources */,
+				C94830C91F81DAB3CF45821E /* JFELocationManager.m in Sources */,
+				955F359CDAA21FC6989C6C34 /* Pods-Tests-JFELocationManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CAAE476382EA420B9FEE010 /* Sources */ = {
+		A5BF7BDEE57C210999AD9972 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABA38AA5EEAB7CE36A41EAC8 /* JFELocationManager.m in Sources */,
-				8A22D12B8B8DB4D3CD14ED12 /* Pods-Tests-JFELocationManager-dummy.m in Sources */,
+				011F0BFBE2D6BAC103D27199 /* JFELocationManager.m in Sources */,
+				5E0AA60C89BE5CE7A66AAF87 /* Pods-JFELocationManager-JFELocationManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9672BC504E46C6B8069AD9CF /* Sources */ = {
+		D9F1CB864C98D0F08F26FFD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC5AF5824496EF335DD6C06D /* Pods-Tests-dummy.m in Sources */,
+				4BB87D8B5C1A3CF08AFC55DA /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		37058668BF0395058F5A7E52 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JFELocationManager-JFELocationManager";
-			target = 18B4E078E1A6697D24909046 /* Pods-JFELocationManager-JFELocationManager */;
-			targetProxy = 78A6CC5BFE80A1DB2AECA4F8 /* PBXContainerItemProxy */;
-		};
-		ACD9911659CA35D12EAFD168 /* PBXTargetDependency */ = {
+		A57225C5F87800E09524F57C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Tests-JFELocationManager";
-			target = 0500069E6A83C0C558CA4532 /* Pods-Tests-JFELocationManager */;
-			targetProxy = 990A03012C110410199C6D0A /* PBXContainerItemProxy */;
+			target = 86D0D7D10FDA5A0F4EF65DB1 /* Pods-Tests-JFELocationManager */;
+			targetProxy = 18F6A3A21660E50E5C266B4D /* PBXContainerItemProxy */;
+		};
+		FEF6611C645EA41DE25F7AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JFELocationManager-JFELocationManager";
+			target = 6B25E6EB344F5FD4037580B8 /* Pods-JFELocationManager-JFELocationManager */;
+			targetProxy = 406310A105B7916B0C18ED1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0CE17332C273515664449E34 /* Debug */ = {
+		1E91B3B1C7D3CAC5B5EEF171 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3FB7C9C1633CB1FE18D7381 /* Pods-JFELocationManager-JFELocationManager-Private.xcconfig */;
+			baseConfigurationReference = A3B293F827350F99A715B59F /* Pods-JFELocationManager-JFELocationManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JFELocationManager-JFELocationManager/Pods-JFELocationManager-JFELocationManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4E4042AB13803C7E69037371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B293F827350F99A715B59F /* Pods-JFELocationManager-JFELocationManager-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-JFELocationManager-JFELocationManager/Pods-JFELocationManager-JFELocationManager-prefix.pch";
@@ -428,9 +444,9 @@
 			};
 			name = Debug;
 		};
-		2FB1A0417DBC21DABF0059C6 /* Debug */ = {
+		610E3B6205045CFBE01FEE90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4565A2850F7E10E97CF0EEE4 /* Pods-JFELocationManager.debug.xcconfig */;
+			baseConfigurationReference = 4B4F2D39579D217E243DDFD4 /* Pods-JFELocationManager.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -444,39 +460,7 @@
 			};
 			name = Debug;
 		};
-		69EDA79A03E774601D9DAACA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A499F3592A85066DF9EA2FA4 /* Pods-Tests-JFELocationManager-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-JFELocationManager/Pods-Tests-JFELocationManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		A13C8357D938663080F01081 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85C15549CA355B26CAA96B3D /* Pods-Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B012194637D7BF5EF7374475 /* Release */ = {
+		651B41E6A7680C27767B0A18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -510,12 +494,12 @@
 			};
 			name = Release;
 		};
-		B7FA7791A6A68F59C6A158A9 /* Release */ = {
+		6A38C8EBA7556CB45511644E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3FB7C9C1633CB1FE18D7381 /* Pods-JFELocationManager-JFELocationManager-Private.xcconfig */;
+			baseConfigurationReference = 163F092389BC2DA1DC2025DA /* Pods-Tests-JFELocationManager-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JFELocationManager-JFELocationManager/Pods-JFELocationManager-JFELocationManager-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-JFELocationManager/Pods-Tests-JFELocationManager-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -526,9 +510,9 @@
 			};
 			name = Release;
 		};
-		CB7F72E2CC3D9DF5D84EF65B /* Debug */ = {
+		B2A142EA06C29C260F955C75 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A499F3592A85066DF9EA2FA4 /* Pods-Tests-JFELocationManager-Private.xcconfig */;
+			baseConfigurationReference = 163F092389BC2DA1DC2025DA /* Pods-Tests-JFELocationManager-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-JFELocationManager/Pods-Tests-JFELocationManager-prefix.pch";
@@ -542,7 +526,7 @@
 			};
 			name = Debug;
 		};
-		CC5317E495D0A80AC652A60A /* Debug */ = {
+		C1D474B1D5BD6622A050AB88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -581,9 +565,9 @@
 			};
 			name = Debug;
 		};
-		F3750AD5DFB12DAF6FAA44ED /* Release */ = {
+		CC607CB2116669C8C6690D57 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D546DD97246383514C7BB51 /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = A90BA1F5B9AC947816443359 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -597,9 +581,25 @@
 			};
 			name = Release;
 		};
-		FAA7C50F711188D272CB63B5 /* Release */ = {
+		D1C45C1914351FC9A875B8DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 983B71FD466DF9A5B947E29C /* Pods-JFELocationManager.release.xcconfig */;
+			baseConfigurationReference = 360C6CB594D803B06804AC36 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF7B20E96B9CA59F4A112E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708CA4FD7EA3C6693B85ED29 /* Pods-JFELocationManager.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -616,52 +616,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D06D6D70C6606AF970080CA /* Build configuration list for PBXNativeTarget "Pods-Tests-JFELocationManager" */ = {
+		076420B5E76E76756FB857C9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB7F72E2CC3D9DF5D84EF65B /* Debug */,
-				69EDA79A03E774601D9DAACA /* Release */,
+				C1D474B1D5BD6622A050AB88 /* Debug */,
+				651B41E6A7680C27767B0A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C35F9873125F314DF3ADF19 /* Build configuration list for PBXNativeTarget "Pods-JFELocationManager-JFELocationManager" */ = {
+		2FF25C33A10947733C4BFA0E /* Build configuration list for PBXNativeTarget "Pods-Tests-JFELocationManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CE17332C273515664449E34 /* Debug */,
-				B7FA7791A6A68F59C6A158A9 /* Release */,
+				B2A142EA06C29C260F955C75 /* Debug */,
+				6A38C8EBA7556CB45511644E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8345291CFC366B121453949 /* Build configuration list for PBXProject "Pods" */ = {
+		4C109866AECF194F86FCA956 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC5317E495D0A80AC652A60A /* Debug */,
-				B012194637D7BF5EF7374475 /* Release */,
+				D1C45C1914351FC9A875B8DC /* Debug */,
+				CC607CB2116669C8C6690D57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD42989825295E3CCD09D632 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		9C77460DDAFF828F775A1BC3 /* Build configuration list for PBXNativeTarget "Pods-JFELocationManager-JFELocationManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A13C8357D938663080F01081 /* Debug */,
-				F3750AD5DFB12DAF6FAA44ED /* Release */,
+				4E4042AB13803C7E69037371 /* Debug */,
+				1E91B3B1C7D3CAC5B5EEF171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9E0B736AA17178BB4E4F3F3 /* Build configuration list for PBXNativeTarget "Pods-JFELocationManager" */ = {
+		F71F5E01DABBF1B9AE250995 /* Build configuration list for PBXNativeTarget "Pods-JFELocationManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FB1A0417DBC21DABF0059C6 /* Debug */,
-				FAA7C50F711188D272CB63B5 /* Release */,
+				610E3B6205045CFBE01FEE90 /* Debug */,
+				DF7B20E96B9CA59F4A112E40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4B249766292462A77F49F985 /* Project object */;
+	rootObject = 08786559F9DB7519585B331A /* Project object */;
 }

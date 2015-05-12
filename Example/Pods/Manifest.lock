@@ -1,5 +1,5 @@
 PODS:
-  - JFELocationManager (0.1.0)
+  - JFELocationManager (0.1.1)
 
 DEPENDENCIES:
   - JFELocationManager (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JFELocationManager: e4def3e37ee22d5a34ae99302cf4472d9a8957d9
+  JFELocationManager: 6a7c18a16797eab3bb9251110c127c8227343a48
 
 COCOAPODS: 0.36.4
