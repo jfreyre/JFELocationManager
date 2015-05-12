@@ -1,0 +1,14 @@
+PODS:
+  - JFELocationManager (0.1.0)
+
+DEPENDENCIES:
+  - JFELocationManager (from `../`)
+
+EXTERNAL SOURCES:
+  JFELocationManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JFELocationManager: b664e547fd3a3adeda60df667fa72b5896e0d70a
+
+COCOAPODS: 0.36.4

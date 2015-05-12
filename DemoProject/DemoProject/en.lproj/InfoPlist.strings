@@ -1,5 +1,0 @@
-/* Localized versions of Info.plist keys */
-
-
-/* Used with iOS 8 */
-NSLocationAlwaysUsageDescription = "The message to be shown";
