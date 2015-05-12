@@ -23,7 +23,7 @@ s.summary            = "JFELocationManager is a CLLocationManager wrapper."
   s.homepage         = "https://github.com/jfreyre/JFELocationManager"
   s.license          = 'MIT'
   s.author           = { "Jérome Freyre" => "jerome.freyre@gmail.com" }
-  s.source           = { :git => "https://github.com/jfreyre/JFELocationManager.git", :branch => 'master', :tag => '0.0.5'}
+  s.source           = { :git => "https://github.com/jfreyre/JFELocationManager.git", :branch => 'master', :tag => '0.1.0'}
   # s.social_media_url = 'https://twitter.com/j_freyre'
 
   s.platform     = :ios, '7.0'
