@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JFELocationManager: b664e547fd3a3adeda60df667fa72b5896e0d70a
+  JFELocationManager: 10ce937826b51d19bb8afb1ed0a31577f7fd2fe7
 
 COCOAPODS: 0.36.4

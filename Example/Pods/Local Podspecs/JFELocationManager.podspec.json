@@ -1,16 +1,17 @@
 {
   "name": "JFELocationManager",
   "version": "0.1.0",
-  "summary": "A short description of JFELocationManager.",
-  "description": "                       An optional longer description of JFELocationManager\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JFELocationManager",
+  "summary": "JFELocationManager is a CLLocationManager wrapper.",
+  "description": "                        JFELocationManager is a CLLocationManager wrapper that enable a really simple usage of location and heading update in your app instead of allocating a CLLocationManager object on each view.\n\n                        * JFELocationManagerDelegate -> three methods that will be called on heading, location or status updates\n                        * delegate vs importantDelegate -> be able to know if you have to stop background update or not\n\n",
+  "homepage": "https://github.com/jfreyre/JFELocationManager",
   "license": "MIT",
   "authors": {
-    "Jerome Freyre": "jerome.freyre@gmail.com"
+    "Jérome Freyre": "jerome.freyre@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/JFELocationManager.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/jfreyre/JFELocationManager.git",
+    "branch": "master",
+    "tag": "0.0.5"
   },
   "platforms": {
     "ios": "7.0"
@@ -21,5 +22,6 @@
     "JFELocationManager": [
       "Pod/Assets/*.png"
     ]
-  }
+  },
+  "frameworks": "CoreLocation"
 }

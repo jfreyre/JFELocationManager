@@ -1,0 +1,6 @@
+#include "Pods-JFELocationManager-JFELocationManager.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/JFELocationManager" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/JFELocationManager"
+OTHER_LDFLAGS = ${PODS_JFELOCATIONMANAGER_JFELOCATIONMANAGER_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

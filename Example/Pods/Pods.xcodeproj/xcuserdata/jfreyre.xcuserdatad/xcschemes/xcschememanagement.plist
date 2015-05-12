@@ -9,12 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-JFELocationManager-JFELocationManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-JFELocationManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-Tests-JFELocationManager-JFELocationManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Tests-JFELocationManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -26,27 +36,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>67A62470112EB43EFD8256B3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8660CFBD28FA7614F24A39B9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9687BF32B45091B4B9C0BA78</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9F6E94B798D76FC6811DE2D8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
