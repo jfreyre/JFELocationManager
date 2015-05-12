@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JFELocationManager.h"
 
-@interface JFEViewController : UIViewController
+@interface JFEViewController : UIViewController<JFELocationManagerDelegate>
+
+@property (strong, nonatomic) IBOutlet UILabel *headingLbl;
+@property (strong, nonatomic) IBOutlet UILabel *locationLbl;
+
+
+-(IBAction) changeDelegateType:(id)sender;
 
 @end

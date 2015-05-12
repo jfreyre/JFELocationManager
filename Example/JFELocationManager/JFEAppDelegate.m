@@ -7,11 +7,15 @@
 //
 
 #import "JFEAppDelegate.h"
+#import "JFELocationManager.h"
 
 @implementation JFEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Will initiate the location manager
+    [JFELocationManager sharedInstance];
+    
     // Override point for customization after application launch.
     return YES;
 }

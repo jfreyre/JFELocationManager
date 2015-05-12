@@ -11,17 +11,13 @@
   "source": {
     "git": "https://github.com/jfreyre/JFELocationManager.git",
     "branch": "master",
-    "tag": "0.0.5"
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "JFELocationManager": [
-      "Pod/Assets/*.png"
-    ]
-  },
-  "frameworks": "CoreLocation"
+  "source_files": "Pod/Classes/*.{h,m}",
+  "frameworks": "CoreLocation",
+  "public_header_files": "Pod/Classes/**/*.h"
 }

@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="CnO-cI-ebb">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="FHb-6A-9OF">
+            <objects>
+                <navigationController id="CnO-cI-ebb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eMn-SM-qHv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="q8z-db-LxI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ng8-E7-cCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79" y="290"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="JFEViewController" sceneMemberID="viewController">
@@ -15,11 +33,88 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heading" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bu2-8t-qAg">
+                                <rect key="frame" x="16" y="64" width="288" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="gCw-ld-Tow"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N/A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="miO-9Y-dGf">
+                                <rect key="frame" x="16" y="110" width="288" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="HFy-RL-zor"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8KC-PO-QjY">
+                                <rect key="frame" x="16" y="139" width="288" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N/A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ct-Ck-EBX">
+                                <rect key="frame" x="16" y="168" width="288" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xE1-2i-mx6">
+                                <rect key="frame" x="16" y="303" width="288" height="245"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Standard will call delegates methods as normal. It will stop in when app goes in background.
+
+Background will call delegates methods as normal but it will also call location update and headings updates when app goes in background.
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3Gd-Fa-3wo">
+                                <rect key="frame" x="73" y="223" width="175" height="29"/>
+                                <segments>
+                                    <segment title="Standard"/>
+                                    <segment title="Background"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeDelegateType:" destination="vXZ-lx-hvc" eventType="valueChanged" id="0d2-lr-GVF"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="3Gd-Fa-3wo" secondAttribute="centerX" id="9Pm-So-Srz"/>
+                            <constraint firstItem="8KC-PO-QjY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Ehc-W6-sam"/>
+                            <constraint firstItem="bu2-8t-qAg" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="FoC-b7-GB0"/>
+                            <constraint firstItem="miO-9Y-dGf" firstAttribute="top" secondItem="bu2-8t-qAg" secondAttribute="bottom" constant="8" id="Hhb-ew-oTp"/>
+                            <constraint firstItem="bu2-8t-qAg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="JaR-Nz-e66"/>
+                            <constraint firstItem="8KC-PO-QjY" firstAttribute="top" secondItem="miO-9Y-dGf" secondAttribute="bottom" constant="8" id="MS1-4Y-geJ"/>
+                            <constraint firstItem="8KC-PO-QjY" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="PVl-mY-Nw5"/>
+                            <constraint firstItem="xE1-2i-mx6" firstAttribute="top" secondItem="3Gd-Fa-3wo" secondAttribute="bottom" constant="52" id="TQe-Ka-5W6"/>
+                            <constraint firstItem="bu2-8t-qAg" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="UGS-bh-faa"/>
+                            <constraint firstItem="3Ct-Ck-EBX" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Vdi-iE-Y2D"/>
+                            <constraint firstItem="miO-9Y-dGf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="iFY-vf-sqJ"/>
+                            <constraint firstItem="3Ct-Ck-EBX" firstAttribute="top" secondItem="8KC-PO-QjY" secondAttribute="bottom" constant="8" id="klA-eG-t3Q"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="xE1-2i-mx6" secondAttribute="bottom" constant="20" id="nLR-RY-oh0"/>
+                            <constraint firstItem="miO-9Y-dGf" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="ne4-6u-MTJ"/>
+                            <constraint firstItem="3Ct-Ck-EBX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="oZo-yO-sxW"/>
+                            <constraint firstItem="xE1-2i-mx6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="u6I-5i-Zv8"/>
+                            <constraint firstItem="xE1-2i-mx6" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="xUe-Bf-ofT"/>
+                            <constraint firstItem="3Gd-Fa-3wo" firstAttribute="top" secondItem="3Ct-Ck-EBX" secondAttribute="bottom" constant="34" id="ydO-ox-4Jn"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Oaa-Ad-9yl"/>
+                    <connections>
+                        <outlet property="headingLbl" destination="miO-9Y-dGf" id="KJ4-Dg-cl1"/>
+                        <outlet property="locationLbl" destination="3Ct-Ck-EBX" id="OLB-TB-WNl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="307" y="290"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
