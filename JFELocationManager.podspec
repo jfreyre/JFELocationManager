@@ -30,12 +30,12 @@ s.summary            = "JFELocationManager is a CLLocationManager wrapper."
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/*.{h,m}'
-  s.resource_bundles = {
-    'JFELocationManager' => ['Pod/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #  'JFELocationManager' => ['Pod/Assets/*.png']
+  #}
   s.framework  = 'CoreLocation'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'CoreLocation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
