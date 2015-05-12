@@ -16,13 +16,13 @@
 static JFELocationManager *sharedInstance;
 
 + (JFELocationManager *)sharedInstance {
-    static dispatch_once_t _singletonPredicate;
-    
-    dispatch_once(&_singletonPredicate, ^{
-        sharedInstance = [[super allocWithZone:nil] init];
+    static dispatch_once_t onceToken = 0;
+
+    __strong static id _sharedObject = nil;
+    dispatch_once(&onceToken, ^{
+        _sharedObject = [[self alloc] init];
     });
-    
-    return sharedInstance;
+    return _sharedObject;
 }
 
 + (id)allocWithZone:(NSZone *)zone
@@ -43,13 +43,16 @@ static JFELocationManager *sharedInstance;
         self.currentLocation = [[CLLocation alloc] init];
         _locationManager = [[CLLocationManager alloc] init];
         _locationManager.delegate = self;
-        
+
         [_locationManager setDistanceFilter:kCLDistanceFilterNone];
         [_locationManager setDistanceFilter:1.f];
         [_locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
-        
+
         if (IS_OS_8_OR_LATER) {
-            [_locationManager requestAlwaysAuthorization];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [_locationManager requestAlwaysAuthorization];
+            });
+
         }
         [self start];
     }
@@ -88,7 +91,7 @@ static JFELocationManager *sharedInstance;
 #pragma mark CLLocationDelegate
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
     [self locationManager:manager didUpdateLocations:[NSArray arrayWithObject:newLocation]];
-    
+
 }
 
 -(void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
@@ -98,18 +101,18 @@ static JFELocationManager *sharedInstance;
 }
 
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
-    
+
     _currentLocation = [locations lastObject];
     NSLog(@"JFELocationManager -> did update location (%f;%f)", _currentLocation.coordinate.latitude, _currentLocation.coordinate.longitude);
-    
+
     if (_delegate != nil && [_delegate respondsToSelector:@selector(didUpdateLocation:)]) {
         [_delegate didUpdateLocation:_currentLocation];
     }
-    
+
     if (_importantDelegate != nil && [_importantDelegate respondsToSelector:@selector(didUpdateLocation:)]) {
         [_importantDelegate didUpdateLocation:_currentLocation];
     }
-    
+
 }
 -(void)locationManager:(CLLocationManager *)manager didUpdateHeading:(CLHeading *)newHeading {
     _currentHeading = newHeading;
@@ -121,10 +124,10 @@ static JFELocationManager *sharedInstance;
     if (_importantDelegate != nil && [_importantDelegate respondsToSelector:@selector(didUpdateHeading:)]) {
         [_importantDelegate didUpdateHeading:_currentHeading];
     }
-    
+
 }
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
-    
+
 }
 
 
