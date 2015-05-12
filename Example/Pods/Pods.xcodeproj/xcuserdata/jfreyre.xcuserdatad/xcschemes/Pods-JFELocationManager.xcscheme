@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2811EEBA7F26F948FDCB62D6"
+               BlueprintIdentifier = "C6FAF63320989301A96DFA65"
                BuildableName = "libPods-JFELocationManager.a"
                BlueprintName = "Pods-JFELocationManager"
                ReferencedContainer = "container:Pods.xcodeproj">

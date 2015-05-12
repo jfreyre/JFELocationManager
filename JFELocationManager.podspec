@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JFELocationManager"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "JFELocationManager is a CLLocationManager wrapper."
 
   s.description      = <<-DESC
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/jfreyre/JFELocationManager"
   s.license          = 'MIT'
   s.author           = { "Jérome Freyre" => "jerome.freyre@gmail.com" }
-  s.source           = { :git => "https://github.com/jfreyre/JFELocationManager.git", :branch => 'master', :tag => '0.1.1'}
+  s.source           = { :git => "https://github.com/jfreyre/JFELocationManager.git", :branch => 'master', :tag => '0.1.2'}
   # s.social_media_url = 'https://twitter.com/j_freyre'
 
   s.platform     = :ios, '7.0'
