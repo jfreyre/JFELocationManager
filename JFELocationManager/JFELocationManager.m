@@ -48,7 +48,7 @@ static JFELocationManager *sharedInstance;
         [_locationManager setDistanceFilter:1.f];
         [_locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
 
-        if (IS_OS_8_OR_LATER) {
+        if ([_locationManager respondsToSelector:@selector(requestAlwaysAuthorization)]) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 [_locationManager requestAlwaysAuthorization];
             });
