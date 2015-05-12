@@ -16,13 +16,13 @@
 static JFELocationManager *sharedInstance;
 
 + (JFELocationManager *)sharedInstance {
-    static dispatch_once_t onceToken = 0;
-
-    __strong static id _sharedObject = nil;
-    dispatch_once(&onceToken, ^{
-        _sharedObject = [[self alloc] init];
+    static dispatch_once_t _singletonPredicate;
+    
+    dispatch_once(&_singletonPredicate, ^{
+        sharedInstance = [[super allocWithZone:nil] init];
     });
-    return _sharedObject;
+    
+    return sharedInstance;
 }
 
 + (id)allocWithZone:(NSZone *)zone
