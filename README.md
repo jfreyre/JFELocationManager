@@ -1,6 +1,6 @@
 # JFELocationManager
 
-[![CI Status](http://img.shields.io/travis/Jerome Freyre/JFELocationManager.svg?style=flat)](https://travis-ci.org/Jerome Freyre/JFELocationManager)
+[![CI Status](http://img.shields.io/travis/jfreyre/JFELocationManager.svg?style=flat)](https://travis-ci.org/jfreyre/JFELocationManager)
 [![Version](https://img.shields.io/cocoapods/v/JFELocationManager.svg?style=flat)](http://cocoapods.org/pods/JFELocationManager)
 [![License](https://img.shields.io/cocoapods/l/JFELocationManager.svg?style=flat)](http://cocoapods.org/pods/JFELocationManager)
 [![Platform](https://img.shields.io/cocoapods/p/JFELocationManager.svg?style=flat)](http://cocoapods.org/pods/JFELocationManager)
